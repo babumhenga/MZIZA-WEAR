@@ -1,0 +1,42 @@
+*{
+    margin-left: 0;
+}
+.navbar{
+    border:1px solid blue;
+    background-color: teal;
+    position: relative;
+}
+
+#logo{
+    width:70px;
+    height:70px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#hom{
+    height:40px;
+    width: 200px;
+    margin-left: 500px;
+}
+#hom:hover{
+    background-color:rgb(21, 84, 202);
+}
+#jezi{
+    margin-left:10px;
+    height:40px;
+    width: 200px;
+    margin-left: 170px;
+    margin-bottom: 10px;
+}
+#jezi:hover{
+    background-color:rgb(68, 0, 255);
+}
+#cart{
+    margin-left:10px;
+    height:40px;
+    width: 200px;
+    margin-left: 50px;
+}
+#cart:hover{
+    background-color:rgb(53, 38, 250);
+}
