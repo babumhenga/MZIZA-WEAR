@@ -3,7 +3,7 @@
 }
 .navbar{
     border:1px solid blue;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(128, 55, 196);
     height: 90px;
 }
 
@@ -49,20 +49,24 @@ ul #gwanda{
     width: 200px;
     margin-left: 100px;
 }
-ul #gwanda:hover{
-   
-}
 ul #cart{
     margin-left:10px;
     height:40px;
     width: 200px;
     margin-left: 50px;
 }
-ul #cart:hover{
-    
-}
 .landing-page{
-    background-image: url(drip.jpg);
-    background-repeat: no-repeat;
+    background-color: black;
 }
- 
+.landing-page img{
+    background-repeat: no-repeat;
+    width: 1000px;
+    height:560px;
+    margin-left: 150px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.end{
+    background-color: rgb(5, 5, 29);
+    height: 200px;
+}

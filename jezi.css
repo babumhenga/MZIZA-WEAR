@@ -50,3 +50,16 @@ ul #cart{
 ul #cart:hover{
     
 }
+.cadi{
+    display:flex;
+}
+.cadi-2{
+    display:flex;
+}
+.card-arsenal{
+    border:2px solid black;
+    width:250px;
+}
+.card-arsenal img{
+    width:240px;
+}
