@@ -3,8 +3,9 @@
 }
 .navbar{
     border:1px solid blue;
-    background-color: rgb(128, 55, 196);
+    background-color: rgb(3, 3, 3);
     height: 90px;
+    /* position: fixed; */
 }
 
 #logo{
@@ -23,7 +24,7 @@ ul{
 }
 .navbar a{
     text-decoration: none;
-    color:black;
+    color:rgb(240, 240, 240);
 }
 ul #hom{
     height:40px;
@@ -57,16 +58,63 @@ ul #cart{
 }
 .landing-page{
     background-color: black;
+    position: relative;
 }
 .landing-page img{
     background-repeat: no-repeat;
-    width: 1000px;
-    height:560px;
-    margin-left: 150px;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+    width: 1325px;
+    height:750px;
+    margin-left: 0px;
+    /* -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    /*filter: grayscale(100%); */
+    background-color: black;
+}
+.landing-page-text{
+    color:rgb(204, 181, 209);
+    position: absolute;
+    top:3%;
+    padding: 10px;
+    margin-left: 600px;
+    font-size: 150%;
+    border-radius: 5px;
+    font-weight: 2px;
+    background-color: black;
 }
 .end{
     background-color: rgb(5, 5, 29);
     height: 200px;
+}
+.intro-pics img{
+    height:200px;
+    width:250px;
+    position: absolute;
+    top:38%;
+    padding: 10px;
+    margin-left: 600px;
+    border: 1px solid rgb(238, 11, 11);
+    border-radius: 50%;
+    -webkit-filter:none;
+    filter:none;
+}
+/* .jersi{
+    
+    height:155px;
+    width:205px;
+    position: absolute;
+    top:38%;
+    margin-left: 850px;
+    border: 1px solid rgb(238, 11, 11);
+    border-radius: 50%;
+} */
+.jersi img{
+    height:200px;
+    width:250px;
+    position: absolute;
+    top:38%;
+    padding: 10px;
+    margin-left: 900px;
+    border: 1px solid rgb(238, 11, 11);
+    border-radius: 50%;
+    -webkit-filter:none;
+    filter:none;
 }
