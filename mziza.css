@@ -3,8 +3,8 @@
 }
 .navbar{
     border:1px solid blue;
-    background-color: teal;
-    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 90px;
 }
 
 #logo{
@@ -13,45 +13,56 @@
     border-radius: 5px;
     margin-top: 10px;
 }
-#hom{
+ul{
+    display: flex;
+    margin-top: -40px;
+}
+ ul li{
+    list-style: none;
+    position:relative;
+}
+.navbar a{
+    text-decoration: none;
+    color:black;
+}
+ul #hom{
     height:40px;
     width: 200px;
-    margin-left: 500px;
+    margin-left: 400px;
 }
-#hom:hover{
-    background-color:rgb(21, 84, 202);
+ul #hom:hover{
+    color:red;
 }
-#jezi{
+ul #jezi{
     margin-left:10px;
     height:40px;
     width: 200px;
-    margin-left: 170px;
+    margin-left: 150px;
     margin-bottom: 10px;
 }
-#jezi:hover{
-    background-color:rgb(68, 0, 255);
+ul #jezi:hover{
+    color:red;
 }
-#gwanda{
+ul #gwanda{
     margin-left:10px;
     height:40px;
     width: 200px;
     margin-left: 100px;
 }
-#gwanda:hover{
-    background-color:rgba(54, 14, 231, 0.623);
+ul #gwanda:hover{
+   
 }
-#cart{
+ul #cart{
     margin-left:10px;
     height:40px;
     width: 200px;
     margin-left: 50px;
 }
-#cart:hover{
-    background-color:rgb(53, 38, 250);
+ul #cart:hover{
+    
 }
 .landing-page{
-    background-image:url(bakground.jpg);
+    background-image: url(drip.jpg);
     background-repeat: no-repeat;
-    width:1000px;
-    height: 500px;
 }
+ 

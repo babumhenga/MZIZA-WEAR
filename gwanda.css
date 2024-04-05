@@ -3,8 +3,20 @@
 }
 .navbar{
     border:1px solid blue;
-    background-color: teal;
+    background-color: rgb(251, 253, 253);
     position: relative;
+}
+ul{
+    display: flex;
+    margin-top: -40px;
+}
+ ul li{
+    list-style: none;
+    position:relative;
+}
+.navbar a{
+    text-decoration: none;
+    color:black;
 }
 
 #logo{
@@ -13,30 +25,30 @@
     border-radius: 5px;
     margin-top: 10px;
 }
-#hom{
+ul #hom{
     height:40px;
     width: 200px;
-    margin-left: 500px;
+    margin-left: 400px;
 }
-#hom:hover{
-    background-color:rgb(21, 84, 202);
+ul #hom:hover{
+    
 }
-#jezi{
+ul #jezi{
     margin-left:10px;
     height:40px;
     width: 200px;
     margin-left: 170px;
     margin-bottom: 10px;
 }
-#jezi:hover{
-    background-color:rgb(68, 0, 255);
+ul #jezi:hover{
+    
 }
-#cart{
+ul #cart{
     margin-left:10px;
     height:40px;
     width: 200px;
     margin-left: 50px;
 }
 #cart:hover{
-    background-color:rgb(53, 38, 250);
+    
 }

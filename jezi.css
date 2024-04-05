@@ -2,40 +2,51 @@
     margin-left: 0;
 }
 .navbar{
-    border:1px solid blue;
-    background-color: teal;
-    position: relative;
-}
+    border:1px solid rgb(185, 201, 243);
+    background-color: rgb(250, 250, 250);
 
+}
+ul{
+    display: flex;
+    margin-top: -40px;
+}
+ ul li{
+    list-style: none;
+    position:relative;
+}
+.navbar a{
+    text-decoration: none;
+    color:black;
+}
 #logo{
     width:70px;
     height:70px;
     border-radius: 5px;
     margin-top: 10px;
 }
-#hom{
+ul #hom{
     height:40px;
     width: 200px;
-    margin-left: 500px;
+    margin-left: 400px;
 }
-#hom:hover{
-    background-color:rgb(21, 84, 202);
+ul #hom:hover{
+    
 }
-#gwanda{
+ul #gwanda{
     margin-left:10px;
     height:40px;
-    width: 200px;
+    width: 150px;
     margin-left: 100px;
 }
-#gwanda:hover{
-    background-color:rgba(54, 14, 231, 0.623);
+ul #gwanda:hover{
+    
 }
-#cart{
+ul #cart{
     margin-left:10px;
     height:40px;
     width: 200px;
     margin-left: 50px;
 }
-#cart:hover{
-    background-color:rgb(53, 38, 250);
+ul #cart:hover{
+    
 }
