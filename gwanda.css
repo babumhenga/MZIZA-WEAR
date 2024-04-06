@@ -2,9 +2,9 @@
     margin-left: 0;
 }
 .navbar{
-    border:1px solid blue;
-    background-color: rgb(0, 0, 0);
-    position: relative;
+    border:1px solid rgb(248, 248, 248);
+    background-color: rgb(255, 255, 255);
+    
     height: 90px;
 }
 ul{
@@ -17,7 +17,7 @@ ul{
 }
 .navbar a{
     text-decoration: none;
-    color:rgb(255, 255, 255);
+    color:rgb(10, 10, 10);
 }
 
 #logo{
@@ -52,4 +52,26 @@ ul #cart{
 }
 #cart:hover{
     
+}
+.line-1{
+    display: flex;
+}
+.line-2{
+    display:flex;
+}
+.line-3{
+    display:flex;
+}
+.line-4{
+    display:flex;
+}
+.njumu img{
+    width: 320px;
+}
+.airmax{
+    display:flex;
+}
+.air img{
+    width: 250px;
+    height:250px;
 }
