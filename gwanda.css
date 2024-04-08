@@ -31,9 +31,6 @@ ul #hom{
     width: 200px;
     margin-left: 400px;
 }
-ul #hom:hover{
-    
-}
 ul #jezi{
     margin-left:10px;
     height:40px;
@@ -41,36 +38,52 @@ ul #jezi{
     margin-left: 170px;
     margin-bottom: 10px;
 }
-ul #jezi:hover{
-    
-}
 ul #cart{
     margin-left:10px;
     height:40px;
     width: 200px;
     margin-left: 50px;
 }
-#cart:hover{
-    
-}
+
 .line-1{
     display: flex;
+}
+.line-1 .njumu{
+    border:1px solid black;
 }
 .line-2{
     display:flex;
 }
+.line-2 .njumu{
+    border:1px solid black;
+}
 .line-3{
     display:flex;
 }
+.line-3 .njumu{
+    border:1px solid black;
+}
 .line-4{
     display:flex;
+}
+.line-4 .njumu{
+    border:1px solid black;
+    
+}
+.njumu{
+    background-color: rgb(136, 136, 151);
+}
+.airmax .air{
+    border:1px solid black;
+    
 }
 .njumu img{
     width: 320px;
 }
 .airmax{
     display:flex;
-    width:1000px;
+    width:1009px;
+    background-color: rgb(136, 136, 151);
 }
 .air img{
     width: 250px;
