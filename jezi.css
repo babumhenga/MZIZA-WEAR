@@ -92,9 +92,11 @@ ul #cart:hover{
     padding: 5px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+    border: 9px;
 }
 .content button:hover{
     background-color: rgba(17, 17, 85, 0.411);
     color:white;
     cursor: pointer;
+    
 }

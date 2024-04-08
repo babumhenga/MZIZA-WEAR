@@ -70,10 +70,11 @@ ul #cart{
 }
 .airmax{
     display:flex;
+    width:1000px;
 }
 .air img{
     width: 250px;
-    height:250px;
+    height:300px;
 }
 .njumu .slides{
     width:320px;
