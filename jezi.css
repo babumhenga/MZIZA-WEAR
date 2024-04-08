@@ -2,7 +2,6 @@
     margin-left: 0;
 }
 .navbar{
-    border:1px solid rgb(238, 238, 238);
     background-color: rgb(255, 255, 255);
     height: 70px;
     
@@ -57,10 +56,45 @@ ul #cart:hover{
 .cadi-2{
     display:flex;
 }
+.cadi .card-arsenal{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.cadi-2 .card-arsenal{
+    margin-left: 15px;
+    margin-top: 10px;
+}
 .card-arsenal{
-    border:2px solid black;
+    border: 0.5px solid blak;
     width:250px;
+    background-color: rgb(213, 218, 241);
 }
 .card-arsenal img{
     width:240px;
+    padding:10px;
+    margin-left: 5px;
+}
+
+.content h3{
+    color:rgb(35, 40, 49);
+    margin-left: 20px;
+}
+.content p{
+    color:rgb(15, 3, 3);
+    align-items: center;
+    margin-left: 65px;
+}
+.content button{
+    margin-left: 60px;
+    background-color: transparent;
+    border: 0.5px solid black;
+    color:rgb(29, 2, 27);
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.content button:hover{
+    background-color: rgba(17, 17, 85, 0.411);
+    color:white;
+    cursor: pointer;
 }
