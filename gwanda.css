@@ -48,30 +48,28 @@ ul #cart{
 .line-1{
     display: flex;
 }
-.line-1 .njumu{
-    border:1px solid black;
-}
 .line-2{
     display:flex;
-}
-.line-2 .njumu{
-    border:1px solid black;
+    margin-top: 10px;
 }
 .line-3{
     display:flex;
-}
-.line-3 .njumu{
-    border:1px solid black;
+    margin-top: 10px;
 }
 .line-4{
     display:flex;
 }
-.line-4 .njumu{
-    border:1px solid black;
-    
-}
 .njumu{
-    background-color: rgb(136, 136, 151);
+    background-color: rgba(187, 202, 211, 0.377);
+}
+.line-1 .njumu{
+    margin-left: 10px;
+}
+.line-2 .njumu{
+    margin-left: 10px;
+}
+.line-3 .njumu{
+    margin-left: 10px;
 }
 .airmax .air{
     border:1px solid black;
@@ -83,7 +81,8 @@ ul #cart{
 .airmax{
     display:flex;
     width:1009px;
-    background-color: rgb(136, 136, 151);
+    background-color: rgb(183, 183, 187);
+    margin-left:10px;
 }
 .air img{
     width: 250px;
@@ -92,4 +91,7 @@ ul #cart{
 .njumu .slides{
     width:320px;
     border-radius: 5px;
+}
+.air{
+    margin-left: 10px;
 }
