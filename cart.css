@@ -3,7 +3,7 @@
 }
 .navbar{
     border:1px solid rgb(113, 113, 173);
-    background-color: rgb(7, 7, 7);
+    background: linear-gradient(144deg, #af40ff,#5b42f3 50%,#00ddeb);
     position: relative;
     height: 90px;
 }

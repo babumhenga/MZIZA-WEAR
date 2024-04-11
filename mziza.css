@@ -3,7 +3,7 @@
 }
 .navbar{
     border:1px solid rgb(204, 76, 230);
-    background-color: rgb(59, 6, 128);
+    background: linear-gradient(144deg, #af40ff,#5b42f3 50%,#00ddeb);
     height: 90px;
     /* position: fixed; */
 }
@@ -60,7 +60,7 @@ marquee{
     color:rgb(255, 255, 255);
 }
 .landing-page{
-    background-color: rgb(59, 6, 128);
+    background: linear-gradient(144deg, #af40ff,#5b42f3 50%,#00ddeb);
     position: relative;
 }
 .landing-page img{
@@ -84,8 +84,9 @@ marquee{
     background-color: black;
 }
 .end{
-    background-color: rgb(74, 9, 160);
+    background: linear-gradient(144deg, #af40ff,#5b42f3 50%,#00ddeb);
     height: 200px;
+    display: flex;
 }
 .intro-pics img{
     height:200px;
@@ -121,7 +122,13 @@ marquee{
     -webkit-filter:none;
     filter:none;
 }
-.mwisho i{
-    margin-left: 250px;
+.socilas i{
+    display:grid;
+    margin-left: 10px;
 }
-
+.about{
+    margin-left: 20px;
+}
+.location{
+    margin-left: 20px;
+}

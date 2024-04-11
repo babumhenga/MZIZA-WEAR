@@ -2,9 +2,12 @@
     margin-left: 0;
 }
 .navbar{
-    background-color: rgb(255, 255, 255);
+     background: linear-gradient(144deg, #af40ff,#5b42f3 50%,#00ddeb);
     height: 70px;
     
+}
+.navbar img{
+    margin-bottom: 5px;
 }
 ul{
     display: flex;
@@ -52,9 +55,12 @@ ul #cart:hover{
 }
 .cadi{
     display:flex;
+    flex-grow: 1;
+    background: linear-gradient(144deg, #af40ff,#5b42f3 50%,#00ddeb);
 }
 .cadi-2{
     display:flex;
+    background: linear-gradient(144deg, #af40ff,#5b42f3 50%,#00ddeb);
 }
 .cadi .card-arsenal{
     margin-left: 15px;
@@ -87,16 +93,17 @@ ul #cart:hover{
 .content button{
     margin-left: 60px;
     background-color: transparent;
-    border: 0.5px solid black;
     color:rgb(29, 2, 27);
     padding: 5px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    border: 9px;
+    border-radius: 5px;
+    border: none;
 }
 .content button:hover{
-    background-color: rgba(17, 17, 85, 0.411);
+    /* background-color: rgba(17, 17, 85, 0.411); */
     color:white;
-    cursor: pointer;
-    
+    cursor: pointer; 
+    border: 0.5px solid black;  
+    background: linear-gradient(144deg, #af40ff,#5b42f3 50%,#00ddeb);
 }
